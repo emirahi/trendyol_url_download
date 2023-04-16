@@ -1,0 +1,22 @@
+
+
+Kurulum gereksinimleri
+1-python 3.11
+2-requirements.txt dosyasındaki kütüphaneler kurulmalıdır
+terminale 
+ -pip install -r requirements.txt 
+şeklinde kurulur
+3- terminale
+ -python main.py
+yazarak çalıştırılır
+
+
+Nasıl Kullanılır
+1-url linklerini içeren excel *EXCEL_FILE_PATH değişkenine verilmelidir ve xlsx uzantılı olmalıdır* ve *SHEET_NAME değişkenine sheet ismi verilmelidir*
+2-excel çıktısını alacağımız dosya yolu için *EXCEL_OUTPUT_FILE_PATH değişkenine xlsx uzantılı isim verilmelidir* dosya yok ise kendi oluşturacaktır bulunan klasöre
+3-database DATABASE_NAME ve DATABASE_PATH değişkeni verilmelidir ve .db uzantılı olmalıdır
+4-db tabloları otomatik olarak oluşturulur kod içinden değişiklik sağlanabilir
+
+
+Özellikleri
+verilen trendyol linklerini içeren excel dosyasının linkteki ürünlerin başlık, özellik, fiyat, url, img, barcode gibi bilgilerini excel output olarak veren program
